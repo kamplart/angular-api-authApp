@@ -20,8 +20,8 @@ export class RegisterPageComponent {
 
   public myForm: FormGroup = this.fb.group({
     name:    ['camilo', [ Validators.required,  Validators.minLength(3) ]],
-    email:    ['olaa@gmail.com', [ Validators.required, Validators.email ]],
-    password: ['olaola', [ Validators.required, Validators.minLength(6) ]],
+    email:    ['kamo01@gmail.com', [ Validators.required, Validators.email ]],
+    password: ['kamo01', [ Validators.required, Validators.minLength(6) ]],
   });
 
 
